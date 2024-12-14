@@ -23,7 +23,7 @@ def calcDistAndSim(filename):
 
     return sum(distances), sum(similarities)
 
-print(calcDistAndSim("wishlist.txt"))
+#print(calcDistAndSim("Day 1/wishlist.txt"))
 
 
 
