@@ -1,6 +1,6 @@
 ALLOWED = [1,2,3,-1,-2,-3]
 
-# helping function
+
 def is_safe(differences):
     return all(diff in ALLOWED for diff in differences) and (all(diff > 0 for diff in differences) or all(diff < 0 for diff in differences))
 
