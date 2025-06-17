@@ -1,3 +1,3 @@
 # Advent-of-code-2024
 
-Løsningene her er mine måter å komme fram til en løsning, men ikke nødvendigvis ryddig eller tradisjonell pen kode💃🏼
+Koden her er mine måter å komme fram til en løsning på oppgaven, men ikke nødvendigvis ryddig eller tradisjonell pen kode. Oppgavene løses litt sporadisk som et overskuddsprosjekt og ikke nødvendigvis bare i høytiden (og eksamensperioden...)💃🏼
