@@ -3,14 +3,20 @@ import itertools
 def evaluate(nums, ops): #tets combinations
     result = nums[0]
     for i in range(len(ops)):
+        op = ops[i]
+        next_num = nums[i+1]
+
+
         if ops[i] == '+':
             result += nums[i+1]
-        else:
+        elif op == '*':
             result *= nums[i+1]
+        elif op == '||':
+            result = int(str(result) + str(next_num))
     return result
 
 def valid_eq(target, numbers):
-    operators = ['+','*']
+    operators = ['+','*', '||']
     for ops in itertools.product(operators, repeat = len(numbers)-1):
         if evaluate(numbers, ops) == target:
             return True 
